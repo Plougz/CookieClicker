@@ -372,8 +372,10 @@ GameObject:
   - component: {fileID: 1499920923}
   - component: {fileID: 1499920926}
   - component: {fileID: 1499920925}
+  - component: {fileID: 1499920927}
+  - component: {fileID: 1499920928}
   m_Layer: 5
-  m_Name: TextTest
+  m_Name: CookieScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,7 +397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -172.81, y: 208}
+  m_AnchoredPosition: {x: -182, y: 205}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1499920923
@@ -466,6 +468,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0a4fc69a4c4ca42a231cebffbff947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1499920927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499920921}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1510cc5eee724e34286ae3920199a0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1499920928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499920921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8a2127a59d9214890b7a063bbeebab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.41
 --- !u!1 &1891723697
 GameObject:
   m_ObjectHideFlags: 0
